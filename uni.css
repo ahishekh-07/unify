@@ -181,8 +181,52 @@ h1{
     height: 711px;
     width: 723px;
     border-radius: 22px;
+    background: linear-gradient(90deg,black,#281b1e,#7e555d,#e09ca8);
 }
-
+.samsung{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    width: 688px;
+    height: 679px;
+    border-radius: 20px;
+}
+.watch{
+    position: relative;
+    top: -458px;
+    left: 764px;
+    height: 318px;
+    width: 404px;
+    background-color: aqua;
+    border-radius: 28px;
+    background: linear-gradient(45deg,#000f4d,#7d001c);
+}
+.iwatch{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    height: 284px;
+    border-radius: 28px;
+    
+}
+.laptop{
+    position: relative;
+    top: -418px;
+    left: 764px;
+    background-color: aliceblue;
+    width: 720px;
+    height:336px;
+    border-radius: 28px;
+    background:linear-gradient(180deg,rgb(206, 45, 27),rgb(69, 65, 65),black) ;
+}
+.victus{
+    position: relative;
+    top: 20px;
+    left: 33px;
+    height: 297px;
+    width: 653px;
+    border-radius: 20px;
+}
 @keyframes slider{
     0%{   transform:translateX(0)
     }
