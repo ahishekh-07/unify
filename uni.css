@@ -177,53 +177,12 @@ h1{
     position: relative;
     background-color: #0342b7;
     top: 236px;
-    left: 3px;
-    height: 254px;
-    width: 1177px;
+    left: 20px;
+    height: 711px;
+    width: 723px;
     border-radius: 22px;
 }
-.top1{
-    position: relative;
-    background-color: #e84646;
-    top:8px;
-    left: 11px;
-    height: 238px;
-    width: 260px;
-    border-radius: 25px;
-    object-fit: cover;
-    transition: 0.5s ease-in-out;
-}
-.ear1{
-    position: relative;
-    height: 229px;
-    left: 4px;
-    top: 4px;
-    border-radius: 25px;
-}
-.card::after{
-    content: " ";
-    position: absolute;
-    inset: 0;
-    border: 2px solid white;
-    border-radius: inherit;
-    opacity: 0;
-    transition: 0.4s ease-in-out;
-}
-.card:hover .ear1 {
-filter: grayscale(1) brightness(0.4)
-}
-.card:hover::after{
-    opacity: 1;
-    inset: 20px;
-}
-.card:hover .content h2{
-    scale: 1;
-    opacity:1;
-}
-.card:hover .content p{
-opacity: 1;
-transform: translateY(0);
-}
+
 @keyframes slider{
     0%{   transform:translateX(0)
     }
