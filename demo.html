@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">UNIFY</div>
+            <div class="user-cart">
+                <span class="user-icon">👤</span>
+                <span class="cart-icon">🛒</span>
+            </div>
+        </nav>
+        <div class="breadcrumb">
+            <a href="#">Home</a> &gt; <span>All Products</span>
+        </div>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <h2>Browse by</h2>
+            <a href="#">All Products</a>
+
+            <h3>Filter by</h3>
+            <div class="filter-section">
+                <label for="price-range">Price</label>
+                <input type="range" id="price-range" min="7.50" max="130.00">
+                <div class="price-values">₹7.50 - ₹130.00</div>
+            </div>
+            <div class="filter-section">
+                <label for="color-filter">Color</label>
+                <!-- Color options can go here -->
+            </div>
+            <div class="filter-section">
+                <label for="size-filter">Size</label>
+                <!-- Size options can go here -->
+            </div>
+        </aside>
+
+        <section class="product-display">
+            <h2>All Products</h2>
+            <p>This is your category description. It’s a great place to tell customers what this category is about, connect with your audience, and draw attention to your products.</p>
+            <div class="product-images">
+                <!-- Sample products for display -->
+                <div class="product-item">
+                    <img src="product1.jpg" alt="Product 1">
+                </div>
+                <div class="product-item">
+                    <img src="product2.jpg" alt="Product 2">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
